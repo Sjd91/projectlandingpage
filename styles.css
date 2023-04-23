@@ -1,0 +1,128 @@
+.menu {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu div p {
+    font-weight: bold;
+    font-size: 25px;
+    align-items: center;
+    margin: 50px 220px;
+}
+
+.menulinks {
+    display: flex;
+    list-style: none;
+    padding: 40px 220px;
+}
+
+ul {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero {
+    background: #1F2937;
+    color: white;
+    display: flex;
+    padding: 150px 220px;
+    justify-content: space-between;
+}
+
+.title {
+    width: 450px;
+}
+
+.title h1 {
+    font-size: 40px;
+}
+
+.placeholder {
+    height: 200px;
+    width: 400px;
+    background-color: lightgray;
+    text-align:center;
+}
+
+.randominfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 100px;
+}
+
+.info {
+    height: 150px;
+    width: 150px;
+}
+
+.productimage {
+    height: 150px;
+    width: 150px;
+    border: 3px solid blue;
+    border-radius: 20px;
+}
+
+.quote {
+    padding: 200px;
+    background-color: #E5E7EB;
+}
+
+
+.quotetext {
+    font-size:40px;
+    text-align: center;
+}
+
+.quoteauthor {
+    font-weight: bold;
+    text-align: right;
+}
+
+.cta-section {
+    background-color: rgb(20, 115, 232);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 180px;
+}
+
+.cta {
+    margin: 40px;
+    margin-right: 200px;
+    border-radius: 40px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+.cta-button button {
+    color: white;
+    background-color: rgb(20, 115, 232);
+    padding: 20px 40px 20px 40px;
+    border: solid white;
+    border-radius: 20px;
+}
+
+.footer {
+    text-align: center;
+    background: #1F2937;
+    color: white;
+    padding: 60px;
+}
+
+.hero-btn {
+    color: white;
+    background-color: rgb(20, 115, 232);
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+}

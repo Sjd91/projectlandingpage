@@ -71,6 +71,8 @@
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     padding: 40px;
     background-color: #E0E1DD;
 }

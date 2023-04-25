@@ -73,22 +73,25 @@
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 75px 220px;
     background-color: #E0E1DD;
 }
 
 .quotetext {
     text-align: center;
     font-size: 30px;
-    margin:25px 270px;
 }
 
 .author {
     text-align: end;
-    margin-right:350px;
 }
 
 .cta-section {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-box {
     display: flex;
     justify-content: center;
     align-items: center;
